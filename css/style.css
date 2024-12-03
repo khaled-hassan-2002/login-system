@@ -1,0 +1,23 @@
+.main-color {
+    background-color: #24353f;
+}
+
+h1,
+button {
+    color: #17a2b8 !important;
+}
+
+input:focus {
+    background-color: #24353f !important;
+}
+
+label:focus {
+    color: aliceblue !important;
+}
+
+a {
+    text-decoration: none;
+}
+.alert-danger{
+    display: none;
+}

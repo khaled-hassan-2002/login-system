@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="main-color">
+        <div class="container ">
+            <div class="row align-items-center justify-content-center vh-100 ">
+                <div class="col-md-9 shadow-lg p-4 box">
+                    <h1 class="text-center mb-4">Sign Up</h1>
+                    <form action>
+                        <div class="mb-3">
+                            <label for="name"
+                                class="form-label text-white">Name
+                            </label>
+                            <input type="text"
+                                class="text-white form-control main-color"
+                                id="name"
+                                placeholder="Enter Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email"
+                                class="form-label text-white">Email
+                                address</label>
+                            <input type="email"
+                                class="text-white form-control main-color"
+                                id="email"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="alert alert-danger" id="alert" role="alert">
+                            this email already exists!
+                        </div>
+                        <div class="mb-3">
+                            <label for="password"
+                                class="form-label text-white">Password
+                            </label>
+                            <input type="password"
+                                class="text-white form-control main-color"
+                                id="password"
+                                placeholder="Enter your password">
+                        </div>
+                        <button type="button" id="signup"
+                            class="form-control my-3 main-color">Sign
+                            Up</button>
+                    </form>
+                    <div class="text-center"> <span class="text-white">You
+                            have an
+                            account?</span><a href="index.html"
+                            class="text-white ">
+                            Login
+                        </a></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
